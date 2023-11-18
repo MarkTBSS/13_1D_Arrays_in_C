@@ -36,16 +36,19 @@ int main() {
     printf("Size of arrDynamic == : %lu bytes\n", sizeof(arrDynamic));
 
     arrDynamic[0] = 10;
-    printf("arrDynamic[0] ============== : %d\n", arrDynamic[0]);
-    printf("Size of arr ========= : %lu bytes\n", sizeof(arrDynamic));
+    printf("arrDynamic[0] ================= : %d\n", arrDynamic[0]);
+    printf("Size of arrDynamic ============ : %lu bytes\n", sizeof(arrDynamic));
+    printf("Size of arrDynamic[0] ========= : %lu bytes\n", sizeof(arrDynamic[0]));
 
     arrDynamic[1] = 'a';
-    printf("arrDynamic[1] ============== : %c\n", arrDynamic[1]);
-    printf("Size of arr ========= : %lu bytes\n", sizeof(arrDynamic));
+    printf("arrDynamic[1] ================= : %c\n", arrDynamic[1]);
+    printf("Size of arrDynamic ============ : %lu bytes\n", sizeof(arrDynamic));
+    printf("Size of arrDynamic[1] ========= : %lu bytes\n", sizeof(arrDynamic[1]));
 
     arrDynamic[2] = 2100000000;
-    printf("arrDynamic[2] ============== : %d\n", arrDynamic[2]);
-    printf("Size of arr ========= : %lu bytes\n", sizeof(arrDynamic));
+    printf("arrDynamic[2] ================= : %d\n", arrDynamic[2]);
+    printf("Size of arrDynamic ============ : %lu bytes\n", sizeof(arrDynamic));
+    printf("Size of arrDynamic[2] ========= : %lu bytes\n", sizeof(arrDynamic[2]));
 
     free(arrDynamic);
 
